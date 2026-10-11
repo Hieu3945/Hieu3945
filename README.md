@@ -6,8 +6,6 @@
 
 </div>
 
-Good day, I'm Hieu 👋
-
 ##  About Me
 
 I am a Data Science student based in Ho Chi Minh City, Vietnam.
