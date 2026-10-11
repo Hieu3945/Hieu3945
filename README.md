@@ -1,12 +1,10 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Hi,%20I'm%20Hieu!&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20Student%20%7C%20Python%20Web%20Scraping%20%26%20Automation&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Hello%20there,%20I'm%20Hieu!&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20Student%20%7C%20Python%20Web%20Scraping%20and%20Automation&descAlignY=55&descSize=18)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Data+Science+Student;Learning+Web+Scraping+%26+Automation;Turning+Web+Data+into+Clean+Datasets;Building+Practical+Python+Projects)](https://git.io/typing-svg)
 
 </div>
-
-# Good day, I'm Hieu 👋
 
 ##  About Me
 
