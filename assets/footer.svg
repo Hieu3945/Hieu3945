@@ -5,6 +5,16 @@
       <stop offset="50%" stop-color="#203A43"/>
       <stop offset="100%" stop-color="#2C5364"/>
     </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="110"/></clipPath>
+    <style>
+      .w1 { animation: drift 9s linear infinite; }
+      .w2 { animation: drift 14s linear infinite reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    </style>
   </defs>
-  <path d="M0 40C150 10 280 60 420 50C560 40 680 0 820 15C960 30 1080 50 1200 30V110H0Z" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <path class="w2" d="M0 28 C150 10 450 46 600 28 C750 10 1050 46 1200 28 C1350 10 1650 46 1800 28 C1950 10 2250 46 2400 28 V110 H0Z" fill="#2C5364" opacity="0.35"/>
+    <path class="w1" d="M0 36 C150 16 450 52 600 36 C750 16 1050 52 1200 36 C1350 16 1650 52 1800 36 C1950 16 2250 52 2400 36 V110 H0Z" fill="#203A43" opacity="0.45"/>
+    <path d="M0 52C150 22 280 72 420 62C560 52 680 12 820 27C960 42 1080 62 1200 42V110H0Z" fill="url(#bg)"/>
+  </g>
 </svg>

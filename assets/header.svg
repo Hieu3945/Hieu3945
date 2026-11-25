@@ -5,12 +5,21 @@
       <stop offset="50%" stop-color="#203A43"/>
       <stop offset="100%" stop-color="#2C5364"/>
     </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="240"/></clipPath>
     <style>
-      .title { font: 700 56px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; }
-      .desc { font: 400 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D6E9F0; }
+      .title { font: 700 56px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; animation: rise 1.2s ease-out both; }
+      .desc { font: 400 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D6E9F0; animation: rise 1.2s ease-out 0.4s both; }
+      .w1 { animation: drift 9s linear infinite; }
+      .w2 { animation: drift 14s linear infinite reverse; }
+      @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
     </style>
   </defs>
-  <path d="M0 0H1200V170C1080 205 960 225 820 205C680 185 560 145 420 160C280 175 150 225 0 200Z" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <path class="w2" d="M0 0H2400V200 C2250 222 1950 182 1800 200 C1650 222 1350 182 1200 200 C1050 222 750 182 600 200 C450 222 150 182 0 200Z" fill="#2C5364" opacity="0.35"/>
+    <path class="w1" d="M0 0H2400V190 C2250 208 1950 170 1800 190 C1650 208 1350 170 1200 190 C1050 208 750 170 600 190 C450 208 150 170 0 190Z" fill="#203A43" opacity="0.45"/>
+    <path d="M0 0H1200V170C1080 205 960 225 820 205C680 185 560 145 420 160C280 175 150 225 0 200Z" fill="url(#bg)"/>
+  </g>
   <text class="title" x="600" y="92" text-anchor="middle">Hello there, I'm Hieu!</text>
   <text class="desc" x="600" y="138" text-anchor="middle">AI &amp; Python Developer | LLM Apps · Computer Vision · Automation</text>
 </svg>
