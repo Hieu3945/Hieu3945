@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Hello there, I'm Hieu! AI and Python Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 56px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; }
+      .desc { font: 400 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D6E9F0; }
+    </style>
+  </defs>
+  <path d="M0 0H1200V170C1080 205 960 225 820 205C680 185 560 145 420 160C280 175 150 225 0 200Z" fill="url(#bg)"/>
+  <text class="title" x="600" y="92" text-anchor="middle">Hello there, I'm Hieu!</text>
+  <text class="desc" x="600" y="138" text-anchor="middle">AI &amp; Python Developer | LLM Apps · Computer Vision · Automation</text>
+</svg>
